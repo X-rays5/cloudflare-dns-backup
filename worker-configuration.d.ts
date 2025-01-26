@@ -3,5 +3,10 @@
 interface Env {
 	BACKUP_KV: KVNamespace;
 	ZONE_ID: "6aa81b8db76949039cab88bf533c503d";
+	S3_REGION: "eu-central-003";
+	S3_ENDPOINT: "s3.backblazeb2.com";
+	S3_BUCKET_NAME: "scheenendev-dns-bak";
 	DNS_READ: string;
+	S3_ACCESS_KEY_ID: string;
+	S3_ACCESS_KEY: string;
 }

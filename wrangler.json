@@ -16,7 +16,10 @@
 	},
 	"placement": { "mode": "smart" },
 	"vars": {
-		"ZONE_ID": "6aa81b8db76949039cab88bf533c503d"
+		"ZONE_ID": "6aa81b8db76949039cab88bf533c503d",
+		"S3_REGION": "eu-central-003",
+		"S3_ENDPOINT": "https://s3.eu-central-003.backblazeb2.com",
+		"S3_BUCKET_NAME": "scheenendev-dns-bak"
 	},
 	"kv_namespaces": [
 		{
