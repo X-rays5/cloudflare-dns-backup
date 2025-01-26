@@ -21,7 +21,6 @@
 	"kv_namespaces": [
 		{
 			"id": "10d65fbd7c104ba8a722a634cd156fc7",
-			"preview_id": "d6cc9b746d344b9e87c6ffa96df19d2e",
 			"binding": "BACKUP_KV"
 		}
 	]
