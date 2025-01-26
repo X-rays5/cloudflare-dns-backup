@@ -10,3 +10,8 @@ Export all records for a zone using a cloudflare worker and store them as a kv e
 5. Create a new KV store and put its id in the ```wrangler.json``` under kv_namespaces for the ```BACKUP_KV```
 6. Deploy the worker again
 7. The worker should now make a backup every hour and keep all records for a month
+
+## Enable S3 backup
+1. Create secret ```S3_ACCESS_KEY_ID``` and ```S3_ACCESS_KEY```
+2. Update S3 env vars in ```wrangler.json```
+3. Deploy worker
