@@ -11,7 +11,7 @@
 	},
 	"triggers": {
 		"crons": [
-			"*/5 * * * *"
+			"0 * * * *"
 		]
 	},
 	"placement": { "mode": "smart" },
