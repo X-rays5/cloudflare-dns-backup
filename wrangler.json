@@ -17,9 +17,9 @@
 	"placement": { "mode": "smart" },
 	"vars": {
 		"ZONE_ID": "6aa81b8db76949039cab88bf533c503d",
-		"S3_REGION": "a",
+		"S3_REGION": "us-east-1",
 		"S3_ENDPOINT": "https://s3.scheenen.dev",
-		"S3_BUCKET_NAME": "scheenendev-dns-bak"
+		"S3_BUCKET_NAME": "scheenen-dev-dns"
 	},
 	"kv_namespaces": [
 		{
